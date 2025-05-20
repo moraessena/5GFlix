@@ -8,21 +8,30 @@ Este projeto consiste em uma análise exploratória de dados de avaliações de 
 
 ## 📁 Estrutura do Projeto
 
-- `script_final.ipynb`: Notebook principal com todo o código e análises.
-- `data/`: Pasta contendo os arquivos de dados (`customers_rating.csv` e `movies.csv`).
+- `notebook.ipynb`: Notebook principal com todo o código e análises.
+- `data/`: Pasta que deve conter os arquivos de dados (`customers_rating.csv` e `movies.csv`).
 
 ## 🚀 Como Executar
 
 1. **Clone o repositório** (se aplicável) e acesse a pasta do projeto.
-2. **Instale as dependências**:
+2. **Baixe os arquivos de dados**:
+    - [customers_rating.csv](https://drive.google.com/file/d/1gLsCjaMrL91ECdThq58cZAzB9tPxG18g/view?usp=sharing)
+    - [movies.csv](https://drive.google.com/file/d/1gLsCjaMrL91ECdThq58cZAzB9tPxG18g/view?usp=sharing)
+3. **Coloque os arquivos baixados na pasta `data/`** dentro do diretório do projeto.
+4. **Crie um ambiente virtual (.venv)**:
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+5. **Instale as dependências**:
     ```bash
     pip install pandas jupyterlab
     ```
-3. **Abra o JupyterLab**:
+6. **Abra o JupyterLab**:
     ```bash
     jupyter lab
     ```
-4. **Abra o arquivo `script_final.ipynb`** e execute as células.
+7. **Abra o arquivo `notebook.ipynb`** e execute as células.
 
 ## 📊 Descrição das Análises
 
